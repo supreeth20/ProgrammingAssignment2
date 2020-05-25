@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## This function calculates the inverse of a square matrix if the inverse of this 
+## matrix was already calculated then it gets the value of inverse from the cache
+## and returns it ,if it was not already calculted then it calculates and
+## stores it in the cache
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
